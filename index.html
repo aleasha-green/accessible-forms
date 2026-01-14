@@ -29,6 +29,26 @@
 			<p>Today we'll be focusing on coding a form that is accessible and semantic, and we'll also briefly discuss skip links for your website. Forms can be a source of frustration for users, whether they specifically need help with accessing your website or if they just prefer that your forms be easy to use and submit. Follow along as we code this in class, and please ask questions as they arise. Let's make a form!</p>
 
 <!-- 	-------- TO-DO: ADD FORM CODE HERE DURING CLASS, FOLLOW ALONG TO COMPLETE -------- -->
+			<form>
+				<label for="fullName">Full Name</label>
+				<input type="text" id="fullName" name="fullName">
+
+				<label for="emailAddress">Email</label>
+				<input type="email" id="emailAddress" name="emailAddress">
+
+				<label for="phoneNumber">Phone</label>
+				<input type="tel" id="phoneNumber" name="phoneNumber">
+
+				<fieldset>
+					<legend>Preferred Contact Method</legend>
+
+					<input type="radio" id="pref-phone" name="preferred">
+					<label for="pref-phone">Phone</label>
+
+					<input type="radio" id="pref-email" name="preferred">
+					<label for="pref-email">Email</label>
+				</fieldset>
+			</form>
 		</article>
 	</main>
 	<footer>
